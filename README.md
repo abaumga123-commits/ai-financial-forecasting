@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.jpg" width="100%">
+</p>
+
 # **AI‑Driven Financial Forecasting System**  
 *A modular, cloud‑portable financial forecasting engine built on synthetic enterprise data, Chronos2 time‑series modeling, agentic reasoning, and a semantic knowledge graph enforcing financial Integrity, Auditibility, Transparency, and GAAP/SOX Governance.*
 
