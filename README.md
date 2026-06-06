@@ -173,46 +173,44 @@ The platform consists of five major subsystems:
 
 ```
 ai-financial-forecasting/
-  src/
-    data_gen/
-      products.py
-      vendors.py
-      abc_costing.py
-      inventory.py
-      general_ledger.py
-      gl_patching.py
-      balance_sheet.py
-      cash_flow.py
-      knowledge_graph.py
-    forecasting/
-      chronos2_service/
-        train.py
-        predict.py
-    agent/
-      planner.py
-      proposer.py
-      constraints.py
-    storage/
-      local_storage.py
-      s3_storage.py
-    utils/
-      logging.py
-      config.py
-  notebooks/
-    01_generate_data.ipynb
-    02_train_chronos2.ipynb
-    03_agent_workflow.ipynb
-    04_knowledge_graph.ipynb
-  data/
-    raw/
-    processed/
-  infra/
-    terraform/
-    docker/
-    lambda/
-  README.md
-  requirements.txt
-  .gitignore
+│
+├── data_gen/
+│   │
+│   ├── master_data/
+│   │   ├── customer.py
+│   │   ├── product.py
+│   │   └── vendors.py
+│   │
+│   ├── contracts/
+│   │   ├── customer_contracts.py
+│   │   └── customer_allocation.py
+│   │
+│   ├── costing/
+│   │   └── abc_costing.py
+│   │
+│   ├── inventory/
+│   │   └── inventory.py
+│   │
+│   ├── ledger/
+│   │   └── general_ledger.py
+│   │
+│   ├── financials/
+│   │   ├── income_statement.py
+│   │   ├── balance_sheet.py
+│   │   ├── cash_flow.py
+│   │   ├── budget_income_statement.py
+│   │   └── opening_balance_sheet.py
+│   │
+│   ├── macro/
+│   │   └── macro.py
+│   │
+│   ├── kg/
+│   │   └── knowledge_graph.py
+│   │
+│   └── orchestration/
+│       └── data_generator.py
+│
+└── (repo root files: README.md, .gitignore, etc.)
 ```
 
 ---
