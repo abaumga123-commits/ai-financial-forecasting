@@ -3,6 +3,28 @@
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Chronos2](https://img.shields.io/badge/Model-Chronos2-purple)
+![AWS Ready](https://img.shields.io/badge/Cloud-AWS_Ready-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+![Architecture](https://img.shields.io/badge/Architecture-8_Layer_Design-blueviolet)
+![Agentic Workflow](https://img.shields.io/badge/Agentic-Workflow_Enabled-ff69b4)
+![Knowledge Graph](https://img.shields.io/badge/Semantic-Knowledge_Graph-yellow)
+![Infrastructure as Code](https://img.shields.io/badge/IaC-Terraform-623ce4)
+![Containerized](https://img.shields.io/badge/Container-Docker-2496ED)
+
+![Synthetic Data](https://img.shields.io/badge/Data-Synthetic_Financial_Data-blue)
+![Forecasting](https://img.shields.io/badge/Forecasting-Multi_Horizon-orange)
+![Probabilistic](https://img.shields.io/badge/Modeling-Probabilistic-red)
+
+![S3 Storage](https://img.shields.io/badge/Storage-S3_Compatible-ff9900)
+![Lambda Ready](https://img.shields.io/badge/Compute-Lambda_Ready-ff9900)
+![ECS Ready](https://img.shields.io/badge/Compute-ECS_Ready-blue)
+
+---
+
 ## 🚀 **Project Overview**
 This project demonstrates how to design and implement a **production‑grade financial forecasting platform** from the ground up. It combines:
 
