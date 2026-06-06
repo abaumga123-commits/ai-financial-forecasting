@@ -5,6 +5,10 @@
 #  User-defined fuction: generate_abc_costing
 #  =============================================================================
 
+# Dependencies needed:
+import numpy as np
+import pandas as pd
+
 COST_POOLS = { "machine_overhead":   "machine_hours",
                "labor_overhead":     "labor_hours",
                "setup_overhead":     "setups",
