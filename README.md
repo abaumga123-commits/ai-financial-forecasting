@@ -40,11 +40,25 @@ This project demonstrates how to design and implement a **production‑grade fin
 - A roadmap for **AWS deployment** via Lambda, ECS, Terraform, and S3 model registry  
 - A full **8‑Layer Enterprise Architecture** that mirrors real-world FP&A and ML governance systems  
 
+**Goal of the Project:** simulate the use of AI in a fictitious company to drive efficient real-time supply chain forecasting with
+deterministic guardrails to ensure governance, auditability, and compliance with GAAP, SOX, and internal controls.
+
+**Five Conceptual Components:**
+- A **Starting Balance Sheet** anchors the company's starting financial position, including Retained Earnings, Working Capital
+  profile, inventory balances, beginning cash balance, accrued liabilities, deferred revenue, PP&E, and depreciation.
+- A **Monthly Budget** serves as a Plan the company expects to follow. The Budget vs. the Forecast becomes the target for variance
+  analysis, Agentic reasoning, MD&A commentary, and LLM narrative generation.
+- A **Chronos2** forecast engine will ingest simulated product demand, macro-driven adjustments, seasonality, churn, cost inflation,
+  as well as internal drivers such as supplier contracts and applied discounts for this fictitious B2B business.
+- **Agentic Reasoning** will conduct Forecast vs. Budget Variance Analysis on Revenue, COGS, SG&A, and Net Income.
+- The **MD&A + Narrative** layer will provide commentary on projected Revenue performance vs. Budget, margin health, e.g., "COGS is expected
+  to run 1.5% higher than Budget due increase material and freight costs," and Operating Income outcomes.
+
 The system is engineered to showcase **ML engineering**, **financial domain expertise**, and **cloud architecture** in a single cohesive project.
 
 ---
 
-# 📐 **8‑Layer Financial Forecasting Architecture**
+# 📐 **8‑Layer Financial Forecasting Technical Architecture**
 
 This project is structured around an enterprise‑grade, extensible 8‑layer architecture:
 
