@@ -53,5 +53,5 @@ This document outlines the current deployment status, completed milestones, and 
 
 ## 🎯 Portfolio Presentation Highlights
 1. **Financial Domain Realism:** We do not replace the historical accounting close system; we model the *forward-looking economic ledger* while managing Accounts Receivable and collection timing lags.
-2. **Machine Learning Pragmatism:** The **Hybrid TSFM strategy** shows high-caliber ML engineering judgment—saving compute costs and avoiding noise by group-forecasting the long-tail 95 SKUs, while focusing model capacity on the top 5 flagship drivers.
-3. **Deterministic Governance:** We mitigate LLM hallucinations completely by wrapping the reasoning layer in a **GAAP-enforcing Semantic Knowledge Graph**.
+2. **Machine Learning Pragmatism:** The **Hybrid TSFM strategy** saves in compute costs and avoids statistical "noise" by group-forecasting the long-tail 95 SKUs, while focusing model capacity on the top 5 flagship drivers.
+3. **Deterministic Governance:** LLM hallucinations are mitigated by wrapping the reasoning layer in a **GAAP-enforcing Semantic Knowledge Graph**.
