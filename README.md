@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 **Project Overview**
+## **Project Overview**
 This project demonstrates how to design and implement a **production‑grade financial forecasting platform** from the ground up. It combines:
 
 - A **synthetic enterprise data generator** (GL, inventory, ABC costing, supply chain)  
@@ -58,7 +58,7 @@ The system is engineered to showcase **ML engineering**, **financial domain expe
 
 ---
 
-# 📐 **8‑Layer Financial Forecasting Technical Architecture**
+# **8‑Layer Financial Forecasting Technical Architecture**
 
 This project is structured around an enterprise‑grade, extensible 8‑layer architecture:
 
@@ -171,7 +171,7 @@ This layer provides **diagnostics**, not just predictions.
 
 ---
 
-# 🧱 **High‑Level System Architecture**
+# **High‑Level System Architecture**
 
 The platform consists of five major subsystems:
 
@@ -183,7 +183,7 @@ The platform consists of five major subsystems:
 
 ---
 
-# 📁 **Repository Structure**
+# **Repository Structure**
 
 ```
 ai-financial-forecasting/
@@ -229,7 +229,7 @@ ai-financial-forecasting/
 
 ---
 
-# 🧬 **Key Features**
+# **Key Features**
 
 ## **1. Synthetic Financial Data Engine**
 Generates realistic enterprise datasets:
@@ -303,7 +303,7 @@ The forecasting logic stays identical; only the storage backend changes.
 
 ---
 
-# 🛠️ **Tech Stack**
+# **Tech Stack**
 
 - **Python 3.10+**  
 - **Chronos2**  
@@ -315,7 +315,7 @@ The forecasting logic stays identical; only the storage backend changes.
 
 ---
 
-# 📊 **Example Workflow**
+# **Example Workflow**
 
 1. Generate synthetic enterprise datasets  
 2. Patch GL and generate financial statements  
@@ -326,7 +326,7 @@ The forecasting logic stays identical; only the storage backend changes.
 
 ---
 
-# 🧭 **AWS Deployment Roadmap**
+# **AWS Deployment Roadmap**
 
 - S3‑based model registry  
 - Lambda packaging for inference  
@@ -337,7 +337,7 @@ The forecasting logic stays identical; only the storage backend changes.
 
 ---
 
-# 📈 **Future Enhancements**
+# **Future Enhancements**
 
 - Multi‑entity forecasting  
 - Anomaly detection for ledger entries  
@@ -347,12 +347,12 @@ The forecasting logic stays identical; only the storage backend changes.
 
 ---
 
-# 📜 **License**
+# **License**
 MIT License — free to use, modify, and distribute.
 
 ---
 
-# 🤝 **Contributions**
+# **Contributions**
 Pull requests are welcome.  
 For major changes, please open an issue first to discuss the proposal.
 
